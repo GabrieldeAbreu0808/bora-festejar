@@ -1,0 +1,456 @@
+.body{
+    margin: 0%;
+    box-sizing: border-box;
+    height: 1920px;
+    max-width: 4462px ;
+  }
+  
+  
+  .logo{
+    /* logo bora festejar navbar*/
+      position: absolute;
+      left: 255px;
+      top: 19px; 
+      color:#FFFFFF;
+      float:left;
+      display:block;
+      padding: 14px 16px;
+      
+  }
+  .navegacao{
+    /* barra de navegação  */
+  
+  height: 120px;
+  left: 991px;
+  top: 20px;
+  background-color: #ffffff;
+  float:right;
+  width: 45.9%;
+   
+  }
+  
+    .navegacao a{
+       /*opções da barra de navegação
+       float: right;
+       */
+     background-color: rgb(255, 255, 255);
+     color: #000000;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 115px;
+     left: 255px;
+     padding: 7px 17px;
+     font-family: 'Montserrat';
+     font-style: normal;
+       
+    }
+  
+    .navegacao a:hover{
+      border-bottom: 4px solid #EE3969;
+      transition: 0.4s;
+      color: #f57676;
+      font-family: 'Montserrat';
+      font-style: normal;
+    }
+     
+     .btn{ 
+       /* botão de criar conta  */
+       position: absolute;
+       width: 177px;
+       height: 40px;
+       left: 1490.9px;
+       top: 33px;
+       background: #EE3969;
+       border-color: #EE3969;
+       border-radius: 5px;
+       /* texto do botão de criar conta  */
+       font-family: 'Montserrat';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 16px;
+       line-height: 20px;
+       text-transform: uppercase;
+       color: #FFFFFF;
+       
+    }
+  
+    .btn:hover{
+      background-color: #ff0303b9; 
+           transition: 0.6s;
+           opacity: 0.6; 
+    }
+    
+  /*
+    .inicio{
+  
+      position: absolute;
+      width: 56px;
+      height: 24px;
+      left: 991px;
+      top: 41px;
+  
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+  
+      color: #333333;
+  
+  }
+  
+  .sobrenos{
+    position: absolute;
+    width: 101px;
+    height: 24px;
+    left: 1079px;
+    top: 41px;
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: #333333;
+  }
+  
+  .servicos{
+  
+    position: absolute;
+    width: 84px;
+    height: 24px;
+    left: 1212px;
+    top: 41px;
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: #333333;
+  }
+  
+  .minhaconta{
+  
+    position: absolute;
+    width: 128px;
+    height: 24px;
+    left: 1328px;
+    top: 41px;
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: #333333;
+  
+  
+  } 
+  
+    .rec-sq{
+      display: flex;
+      gap: 2em;
+      margin: 2em;
+     }
+  */
+     .rectangle{
+      /* retangulo da foto */
+      position: absolute;
+      width: 1410px;
+      height: 460px;
+      left: 255px;
+      top: 201px;
+      
+      background: linear-gradient(101.85deg, #FAE9D7 1.08%, rgba(250, 233, 215, 0.7) 58.67%);
+      border-radius: 20px;
+    }
+      .img{
+        /* imagem bora festejar do retangulo */ 
+      
+        position: absolute;
+        width: 690px;
+        height: 460px;
+        left: 719px;
+        
+        
+        
+        border-radius: 0px 20px 20px 0px;
+      }
+      .texto{
+        position: absolute;
+        width: 655px;
+        height: 18px;
+        left: 15px;
+        top: 20px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 530;
+        font-size: 56px;
+        line-height: 68px;
+    
+        color: #333333;
+    
+      }
+      .subtexto{
+        position: absolute;
+        width: 264px;
+        height: 24px;
+        left: 30px;
+        top: 170px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    
+        color: #333333;
+    
+      }
+      .form-control{
+         /*barra pesquisar */
+      
+        position: absolute;
+        width: 378px;
+        height: 40px;
+        left: 20px;
+        top: 252.5px;
+        min-width:min-content;
+        max-width: 390px;
+        background: #FFFFFF;
+        
+      }
+      .button{
+        position: absolute;
+        width: 0px;
+        height: 40px;
+        left: 410px;
+        top: 252.5px;
+        
+    
+      }
+      .search{
+         /*botao pesquisar */
+        position: absolute;
+        width: 154px;
+        height: 40px;
+        left: 395px;
+        top: 252.5px;
+    
+    
+        background: #EE3969;
+        border-radius: 0px 5px 5px 0px;
+        border-color: #EE3969;
+    
+        /*estilização do texto */
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 20px;
+       
+    
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+    
+      }
+    
+       .quad{
+        position: absolute;
+        height: 59px;
+        left: 281px;
+        top: 813px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 59px;
+        width: 266px;
+       }
+      .square{
+         /* quad ao lado de Categorias */
+         position: absolute;
+         width: 15px;
+         height: 37px;
+         left: 22px;
+         top: 11px;
+         background: #FF0D0D;
+      }
+    
+      .rec-sq{
+        /*estilização quadrados  das categorias*/
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+        left: 270px;
+        top: 890px;
+      }
+    
+      .square1{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 255px;
+        top: 960px;
+        
+        background: #F7F7F7;
+        border-radius: 20px;
+      }
+      .square2{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 465px;
+        top: 960px;
+  
+        background: #F7F7F7;
+        border-radius: 20px;
+      }
+      .square3{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 675px;
+        top: 960px;
+  
+        background: #F7F7F7;
+        border-radius: 20px;
+      }
+      .square4{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 885px;
+        top: 960px;
+  
+        background: #F7F7F7;
+        border-radius: 20px;
+    
+      }
+      .square5{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 1095px;
+        top: 960px;
+  
+        background: #F7F7F7;
+        border-radius: 20px;
+      }
+      .square6{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 1305px;
+        top: 960px;
+  
+        background: #F7F7F7;
+        border-radius: 20px;
+   }
+  .square7{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1515px;
+  top: 960px;
+  
+  background: #F7F7F7;
+  border-radius: 20px;
+  }
+      
+  .fococam{
+  /* categorias quadrado 1, logo circulo da camera*/
+  position: absolute;
+  left: 43%;
+  right: 43%;
+  top: 45.5%;
+  bottom: 29.17%;
+  
+  
+        
+  }
+  
+  .camera1{
+  /* 1 quadrado*/
+  position: absolute;
+  left: 33.33%;
+  right: 33.33%;
+  top: 37.33%;
+  bottom: 29.17%;
+  
+  
+  }
+  .pic{
+  /*figuras das categorias*/
+  position: absolute;
+  left: 33.33%;
+  right: 33.33%;
+  top: 37.5%;
+  bottom: 29.17%;
+   
+  }
+  
+  .balaorosa{
+  /* balão rosa  */
+  position:absolute;
+  left: 96.51%;
+  right: -1.73%;
+  top: 80%;
+  bottom: 82.08%;
+  
+  
+     }
+  
+  
+  
+  
+  .quad2{
+  /* class das categorias  */
+  position: absolute;
+  height: 59px;
+  left: 281px;
+  top: 813px;
+    
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  width: 266px;
+   }
+  .squareC{
+  /* retângulo vermelho da categoria*/
+  position: absolute;
+  width:  15px;
+  height: 37px;
+  left:   20px;
+  top:    460px;
+  
+  background: #FF8500;
+  }
+  
+  .fs-3{
+    /* texto categorias*/
+    position: absolute;
+    width: 475px;
+    height: 59px;
+    left:  40px;
+    top: 450px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    
+  }
+  
